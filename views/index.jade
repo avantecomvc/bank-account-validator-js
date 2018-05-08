@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  code.
+    request: {
+    "bank_number":XXXX,
+    "agency_number":XXX,
+    "agency_check_number":XXX,
+    "account_number": XXX,
+    "account_check_number": XXX
+    }
+    <br />
+    response: {"errors":[{"description":"Dígito da agência inválido","code":"INVALID_AGENCY_CHECK_NUMBER"},{"description":"Dígito da conta corrente inválido","code":"INVALID_ACCOUNT_CHECK_NUMBER"}]}
+
