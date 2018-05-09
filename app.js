@@ -38,6 +38,6 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-//app.listen(80, ()=> console.log('listening 80'));
+app.listen(3232, ()=> console.log('listening 3232'));
 
 module.exports = app;
