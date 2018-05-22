@@ -47,7 +47,7 @@ var BanrisulValidator = require('./banrisul_validator');
       }
 
       if(!validator.accountNumberIsValid(params.accountNumber)){
-        errors.push({ description: validator.accountNumberMsgError(), field: "accountNumber" });
+        errors.push({ description: validator.accountNumberMsgError(validator.accountNumberLength()), field: "accountNumber" });
       }
 
       if(!validator.accountCheckNumberIsValid(params.accountCheckNumber)){
