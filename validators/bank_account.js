@@ -35,34 +35,34 @@ var BanrisulValidator = require('./banrisul_validator');
       var validator = this.validator(params.bankNumber);
 
       if(!GenericValidator.bankNumberIsValid(params.bankNumber)){
-        errors.push({ description: "Banco inválido", code: "INVALID_BANK_NUMBER" });
+        errors.push({ description: "Banco inválido", code: "bankNumber" });
       }
 
       if(!validator.agencyNumberIsValid(params.agencyNumber)){
-        errors.push({ description: validator.agencyNumberMsgError(), code: "INVALID_AGENCY_NUMBER" });
+        errors.push({ description: validator.agencyNumberMsgError(), field: "agencyNumber" });
       }
 
       if(!validator.agencyCheckNumberIsValid(params.agencyCheckNumber)){
-        errors.push({ description: validator.agencyCheckNumberMsgError(), code: "INVALID_AGENCY_CHECK_NUMBER" });
+        errors.push({ description: validator.agencyCheckNumberMsgError(), field: "agencyCheckNumber" });
       }
 
       if(!validator.accountNumberIsValid(params.accountNumber)){
-        errors.push({ description: validator.accountNumberMsgError(), code: "INVALID_ACCOUNT_NUMBER" });
+        errors.push({ description: validator.accountNumberMsgError(), field: "accountNumber" });
       }
 
       if(!validator.accountCheckNumberIsValid(params.accountCheckNumber)){
-        errors.push({ description: "Dígito da conta corrente inválido", code: "INVALID_ACCOUNT_CHECK_NUMBER" });
+        errors.push({ description: "Dígito da conta corrente inválido", field: "accountCheckNumber" });
       }
 
       if(validator.agencyNumberIsValid(params.agencyNumber) && validator.agencyCheckNumberIsValid(params.agencyCheckNumber)){
         if(!validator.agencyCheckNumberMatch(params)) {
-          errors.push({ description: "Dígito da agência não corresponde ao número da agência preenchido", code: "AGENCY_CHECK_NUMBER_DONT_MATCH" });
+          errors.push({ description: "Dígito da agência não corresponde ao número da agência preenchido", field: "agencyCheckNumber" });
         }
       }
 
       if(validator.accountNumberIsValid(params.accountNumber) && validator.accountCheckNumberIsValid(params.accountCheckNumber)){
         if(!validator.accountCheckNumberMatch(params)) {
-          errors.push({ description: "Dígito da conta não corresponde ao número da conta/agência preenchido", code: "ACCOUNT_CHECK_NUMBER_DONT_MATCH" });
+          errors.push({ description: "Dígito da conta não corresponde ao número da conta/agência preenchido", field: "accountCheckNumber" });
         }
       }
 

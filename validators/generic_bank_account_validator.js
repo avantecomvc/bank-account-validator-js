@@ -36,7 +36,7 @@
     };
 
     accountNumberMsgError(length) {
-      return "Conta corrente inválida";
+      return "A conta de conter "+length+" números";
     }
   };
 var instance =  new GenericBankAccountValidator();
