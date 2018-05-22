@@ -35,7 +35,7 @@ var BanrisulValidator = require('./banrisul_validator');
       var validator = this.validator(params.bankNumber);
 
       if(!GenericValidator.bankNumberIsValid(params.bankNumber)){
-        errors.push({ description: "Banco inválido", code: "bankNumber" });
+        errors.push({ description: "Banco inválido", field: "bankNumber" });
       }
 
       if(!validator.agencyNumberIsValid(params.agencyNumber)){
