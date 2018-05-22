@@ -34,7 +34,7 @@
     };
 
     accountNumberMsgError(length) {
-      return "A conta corrente deve conter " + length + " números. Complete com zeros a esquerda se necessário.";
+      return "A conta de conter " + length + " números";
     };
 
     agencyNumberLength() { return 4; }
