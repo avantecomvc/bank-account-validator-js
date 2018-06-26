@@ -13,13 +13,13 @@ var BanrisulValidator = require('./banrisul_validator');
      validator (bankNumber) {
 
       var validators = {
-        "001": BanoDoBrasilValidator,
-        "237": BradescoValidator,
-        "341": ItauValidator,
-        "033": SantanderValidator,
-        "745": CitibankValidator,
-        "399": HSBCValidator,
-        "041": BanrisulValidator
+        "0001": BanoDoBrasilValidator,
+        "0237": BradescoValidator,
+        "0341": ItauValidator,
+        "0033": SantanderValidator,
+        "0745": CitibankValidator,
+        "0399": HSBCValidator,
+        "0041": BanrisulValidator
       };
 
       if (validators[bankNumber]) {

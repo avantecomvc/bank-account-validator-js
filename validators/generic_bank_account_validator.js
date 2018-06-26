@@ -38,6 +38,8 @@
     accountNumberMsgError(length) {
       return "A conta de conter "+length+" números";
     }
+
+    accountNumberLength() { return 5; }
   };
 var instance =  new GenericBankAccountValidator();
 module.exports = instance;
