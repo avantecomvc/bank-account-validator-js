@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4568d301-8b53-4c9f-adaa-ed02ad36b26d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validators/bank_account.js" beforeDir="false" afterPath="$PROJECT_DIR$/validators/bank_account.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validators/generic_bank_account_validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/validators/generic_bank_account_validator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validators/banco_do_brasil_validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/validators/banco_do_brasil_validator.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,15 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="hsbc_validator.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/validators/hsbc_validator.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="805">
-              <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="bradesco_validator.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/validators/bradesco_validator.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -42,7 +32,7 @@
       <file leaf-file-name="itau_validator.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/validators/itau_validator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
+            <state relative-caret-position="943">
               <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="39" />
             </state>
           </provider>
@@ -69,8 +59,8 @@
       <file leaf-file-name="bank_account.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/validators/bank_account.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+            <state relative-caret-position="270">
+              <caret line="54" column="7" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -78,7 +68,7 @@
       <file leaf-file-name="citibank_validator.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/validators/citibank_validator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
+            <state relative-caret-position="805">
               <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
             </state>
           </provider>
@@ -88,25 +78,34 @@
         <entry file="file://$PROJECT_DIR$/routes/validation.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="banco_do_brasil_validator.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="banco_do_brasil_validator.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/validators/banco_do_brasil_validator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+            <state relative-caret-position="23">
+              <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generic_bank_account_validator.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="banco_do_brasil_check_number_calculator.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/validators/banco_do_brasil_check_number_calculator.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="507">
+              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generic_bank_account_validator.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/validators/generic_bank_account_validator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+            <state relative-caret-position="920">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
@@ -124,7 +123,6 @@
     <findStrings>
       <find>BankNumber</find>
       <find>window.moip</find>
-      <find>BancoDoBrasilCheckNumberCalculator</find>
       <find>: func</find>
       <find>},</find>
       <find>: function</find>
@@ -144,6 +142,8 @@
       <find>orrente inválida</find>
       <find>code:</find>
       <find>9</find>
+      <find>28</find>
+      <find>BancoDoBrasilCheckNumberCalculator</find>
     </findStrings>
     <replaceStrings>
       <replace>}</replace>
@@ -161,7 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/validators/banco_do_brasil_check_number_calculator.js" />
         <option value="$PROJECT_DIR$/validators/banrisul_check_number_calculator.js" />
         <option value="$PROJECT_DIR$/validators/banrisul_validator.js" />
         <option value="$PROJECT_DIR$/validators/bradesco_check_number_calculator.js" />
@@ -176,10 +175,11 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/validators/hsbc_validator.js" />
         <option value="$PROJECT_DIR$/validators/common_bank_account_validator.js" />
-        <option value="$PROJECT_DIR$/validators/banco_do_brasil_validator.js" />
         <option value="$PROJECT_DIR$/routes/validation.js" />
         <option value="$PROJECT_DIR$/validators/bank_account.js" />
         <option value="$PROJECT_DIR$/validators/generic_bank_account_validator.js" />
+        <option value="$PROJECT_DIR$/validators/banco_do_brasil_validator.js" />
+        <option value="$PROJECT_DIR$/validators/banco_do_brasil_check_number_calculator.js" />
       </list>
     </option>
   </component>
@@ -199,8 +199,8 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="413" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="979" />
   </component>
@@ -209,7 +209,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,10 +230,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="generi&#9;FILE&#9;file:///Users/levperlman/Git/bank-account-validator-js/validators/generic_bank_account_validator.js&#10;itau&#9;FILE&#9;file:///Users/levperlman/Git/bank-account-validator-js/validators/itau_validator.js&#10;bank_account&#9;FILE&#9;file:///Users/levperlman/Git/bank-account-validator-js/validators/bank_account.js&#10;validation.js&#9;FILE&#9;file:///Users/levperlman/Git/bank-account-validator-js/routes/validation.js" />
+    <property name="SearchEverywhereHistoryKey" value="banc&#9;FILE&#9;file:///Users/levperlman/Git/bank-account-validator-js/validators/banco_do_brasil_validator.js&#10;generi&#9;FILE&#9;file:///Users/levperlman/Git/bank-account-validator-js/validators/generic_bank_account_validator.js&#10;itau&#9;FILE&#9;file:///Users/levperlman/Git/bank-account-validator-js/validators/itau_validator.js&#10;bank_account&#9;FILE&#9;file:///Users/levperlman/Git/bank-account-validator-js/validators/bank_account.js&#10;validation.js&#9;FILE&#9;file:///Users/levperlman/Git/bank-account-validator-js/routes/validation.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.prettier" value="true" />
@@ -285,35 +285,36 @@
       <workItem from="1526453397592" duration="304000" />
       <workItem from="1526973790502" duration="295000" />
       <workItem from="1526989975068" duration="3583000" />
-      <workItem from="1529568495110" duration="3503000" />
+      <workItem from="1529568495110" duration="6671000" />
+      <workItem from="1530598762839" duration="78000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18416000" />
+    <option name="totallyTimeSpent" value="21662000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="979" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4981685" visible="true" weight="0.16071428" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49676377" visible="true" weight="0.16071428" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295838" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33017492" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3048369" />
-      <window_info id="Favorites" order="2" sideWeight="0.50183153" side_tool="true" visible="true" weight="0.16071428" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.38582677" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3048369" />
+      <window_info id="Favorites" order="2" sideWeight="0.50323623" side_tool="true" visible="true" weight="0.16071428" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38582677" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3295838" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,13 +334,11 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/validators/bank_account.js</url>
           <line>49</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/validators/bank_account.js</url>
           <line>36</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
@@ -599,13 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/validators/banco_do_brasil_check_number_calculator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/validators/banrisul_validator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="966">
@@ -662,45 +654,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/validators/banco_do_brasil_validator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/validators/citibank_validator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
+        <state relative-caret-position="805">
           <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/validation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/validators/bank_account.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/validators/itau_validator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
+        <state relative-caret-position="943">
           <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/validators/generic_bank_account_validator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+        <state relative-caret-position="920">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/validation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/validators/bank_account.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="54" column="7" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/validators/banco_do_brasil_check_number_calculator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/validators/banco_do_brasil_validator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
         </state>
       </provider>
     </entry>

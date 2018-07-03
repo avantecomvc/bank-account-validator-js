@@ -1,4 +1,5 @@
 var CommonBankAccountValidator = require('./common_bank_account_validator');
+var BancoDoBrasilCheckNumberCalculator = require('./banco_do_brasil_check_number_calculator');
 
 class BancoDoBrasilValidator{
     agencyNumberIsValid(agencyNumber) {
@@ -20,12 +21,12 @@ class BancoDoBrasilValidator{
     };
 
     agencyCheckNumberMatch(bankAccount) {
-      var checkNumberCalculated = Moip.BancoDoBrasilCheckNumberCalculator.calculateAgency(bankAccount.agencyNumber);
+      var checkNumberCalculated = BancoDoBrasilCheckNumberCalculator.calculateAgency(bankAccount.agencyNumber);
       return checkNumberCalculated === bankAccount.agencyCheckNumber.toUpperCase();
     };
 
     accountCheckNumberMatch(bankAccount) {
-      var checkNumberCalculated = Moip.BancoDoBrasilCheckNumberCalculator.calculateAccount(bankAccount.accountNumber);
+      var checkNumberCalculated = BancoDoBrasilCheckNumberCalculator.calculateAccount(bankAccount.accountNumber);
       return checkNumberCalculated === bankAccount.accountCheckNumber.toUpperCase();
     };
 
