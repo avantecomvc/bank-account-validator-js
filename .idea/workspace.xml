@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4568d301-8b53-4c9f-adaa-ed02ad36b26d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validators/banco_do_brasil_validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/validators/banco_do_brasil_validator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validators/banco_do_brasil_check_number_calculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/validators/banco_do_brasil_check_number_calculator.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -83,20 +82,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="banco_do_brasil_validator.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="banco_do_brasil_validator.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/validators/banco_do_brasil_validator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+            <state relative-caret-position="391">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="banco_do_brasil_check_number_calculator.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="banco_do_brasil_check_number_calculator.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/validators/banco_do_brasil_check_number_calculator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+            <state relative-caret-position="253">
+              <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -144,6 +143,7 @@
       <find>9</find>
       <find>28</find>
       <find>BancoDoBrasilCheckNumberCalculator</find>
+      <find>sequence</find>
     </findStrings>
     <replaceStrings>
       <replace>}</replace>
@@ -286,12 +286,12 @@
       <workItem from="1526973790502" duration="295000" />
       <workItem from="1526989975068" duration="3583000" />
       <workItem from="1529568495110" duration="6671000" />
-      <workItem from="1530598762839" duration="78000" />
+      <workItem from="1530598762839" duration="293000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21662000" />
+    <option name="totallyTimeSpent" value="21877000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="979" extended-state="6" />
@@ -689,17 +689,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/validators/banco_do_brasil_check_number_calculator.js">
+    <entry file="file://$PROJECT_DIR$/validators/banco_do_brasil_validator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        <state relative-caret-position="391">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/validators/banco_do_brasil_validator.js">
+    <entry file="file://$PROJECT_DIR$/validators/banco_do_brasil_check_number_calculator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+        <state relative-caret-position="253">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
         </state>
       </provider>
     </entry>
