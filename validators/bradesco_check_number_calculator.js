@@ -34,7 +34,7 @@
     calculateAgency (agencyNumber) {
       var numbers = agencyNumber.split("");
       var sumSeq = 0;
-      var sequence = 0;
+      var seq = 0;
       for (var i = 0; i < numbers.length; i++) {
         seq = 5 - i;
         sumSeq += (parseInt(numbers[i]) * seq);
