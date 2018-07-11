@@ -9,7 +9,7 @@ router.post('/', function(req, res, next) {
         bankNumber          :  tab(req.body.bank_number.toString(), 4),
         agencyNumber        :  req.body.agency_number ? req.body.agency_number.toString() : '',
         agencyCheckNumber   :  req.body.agency_check_number ? req.body.agency_check_number.toString() : '',
-        accountNumber       :  tab(req.body.account_number.toString(), 7),
+        accountNumber       :  req.body.account_number.toString(),
         accountCheckNumber :  req.body.account_check_number ? req.body.account_check_number.toString() : '',
         valid :  function () {
             res.send(true)
