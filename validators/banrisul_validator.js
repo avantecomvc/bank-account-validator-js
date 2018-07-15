@@ -1,5 +1,5 @@
 var CommonBankAccountValidator = require('./common_bank_account_validator');
-var BanrisulCheckNumberCalculator = require('./banco_do_brasil_check_number_calculator');
+var banrisulCheckNumberCalculator = require('./banrisul_check_number_calculator');
 
   class BanrisulValidator {
     agencyNumberIsValid(agencyNumber) {
@@ -24,7 +24,7 @@ var BanrisulCheckNumberCalculator = require('./banco_do_brasil_check_number_calc
     };
     
     accountCheckNumberMatch(bankAccount) {
-      var checkNumberCalculated = BanrisulCheckNumberCalculator.calculate(bankAccount.accountNumber);
+      var checkNumberCalculated = banrisulCheckNumberCalculator.calculate(bankAccount.accountNumber);
       return checkNumberCalculated === bankAccount.accountCheckNumber;
     };
 
