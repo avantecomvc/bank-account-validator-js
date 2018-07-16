@@ -36,7 +36,7 @@ class  ItauValidator {
     };
 
     accountNumberMsgError() {
-        return "A conta deve conter 5 número";
+        return "A conta deve conter 5 números";
       //return CommonBankAccountValidator.accountNumberMsgError(this.accountNumberLength());
     };
 
