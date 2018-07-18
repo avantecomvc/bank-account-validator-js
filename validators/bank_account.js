@@ -56,7 +56,7 @@ var BanrisulValidator = require('./banrisul_validator');
 
       if(validator.agencyNumberIsValid(params.agencyNumber) && validator.agencyCheckNumberIsValid(params.agencyCheckNumber)){
         if(!validator.agencyCheckNumberMatch(params)) {
-          errors.push({ description: "Dígito da agência não corresponde ao número da agência preenchido", field: "agencyCheckNumber" });
+          errors.push({ description: "Dígito da agência inválido", field: "agencyCheckNumber" });
         }
       }
 
